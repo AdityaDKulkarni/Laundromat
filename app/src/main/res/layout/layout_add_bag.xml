@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/etNfcTagId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/attch_a_tag_for_id"
+        android:editable="false"
+        android:layout_marginTop="@dimen/d16dp"
+        android:layout_marginStart="@dimen/d16dp"
+        android:layout_marginEnd="@dimen/d16dp"/>
+
+    <Spinner
+        android:id="@+id/spnService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNfcTagId"
+        android:layout_margin="@dimen/d16dp"/>
+
+</RelativeLayout>

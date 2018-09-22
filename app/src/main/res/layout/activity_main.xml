@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#cac6c6"
+    tools:context="com.laundry.laundry.ui.MainActivity">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvBag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fbAddBag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/d15dp"
+        android:layout_marginBottom="@dimen/d15dp"
+        android:src="@android:drawable/ic_menu_add"/>
+
+</RelativeLayout>

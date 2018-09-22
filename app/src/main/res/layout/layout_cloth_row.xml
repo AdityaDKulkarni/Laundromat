@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/d5dp"
+    android:layout_marginBottom="@dimen/d8dp"
+    android:elevation="@dimen/d5dp"
+    app:cardCornerRadius="@dimen/d5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/d5dp">
+
+        <ImageButton
+            android:id="@+id/imgBtnCust"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:layout_alignTop="@id/tvCustName"
+            android:src="@drawable/ic_cust"/>
+
+        <TextView
+            android:id="@+id/tvCustName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/d8dp"
+            android:layout_toEndOf="@id/imgBtnCust"
+            android:layout_marginStart="@dimen/d8dp"
+            android:background="@drawable/eclipse_drawable"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s16sp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#cac6c6"
+            android:layout_below="@id/tvCustName"
+            android:layout_marginTop="@dimen/d8dp"/>
+
+        <TextView
+            android:id="@+id/tvClothUid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view"
+            android:layout_marginTop="@dimen/d8dp"
+            android:background="@drawable/eclipse_drawable"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s16sp" />
+
+        <TextView
+            android:id="@+id/tvClothType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvClothUid"
+            android:layout_marginTop="@dimen/d8dp"
+            android:background="@drawable/eclipse_drawable"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s16sp" />
+
+        <TextView
+            android:id="@+id/tvClothColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvClothType"
+            android:layout_marginTop="@dimen/d8dp"
+            android:background="@drawable/eclipse_drawable"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s16sp" />
+
+        <TextView
+            android:id="@+id/tvClothBag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/tvClothUid"
+            android:layout_marginStart="@dimen/d8dp"
+            android:layout_toEndOf="@id/tvClothUid"
+            android:background="@drawable/eclipse_drawable"
+            android:textColor="@color/white"
+            android:textSize="@dimen/s16sp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

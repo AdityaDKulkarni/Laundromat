@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/d16dp">
+
+    <EditText
+        android:id="@+id/etNfcTagId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/rfid_tag_id"
+        android:editable="false"
+        android:layout_marginBottom="@dimen/d16dp"/>
+
+    <EditText
+        android:id="@+id/etClothColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/cloth_color"
+        android:layout_marginBottom="@dimen/d16dp"/>
+
+    <Spinner
+        android:id="@+id/etClothType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/d16dp"/>
+
+</LinearLayout>

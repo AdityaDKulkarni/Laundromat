@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/status_received"
+        android:title="Received"/>
+
+    <item
+        android:id="@+id/status_in_progress"
+        android:title="In progress"/>
+
+    <item
+        android:id="@+id/status_completed"
+        android:title="Completed"/>
+
+</menu>
